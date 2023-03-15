@@ -113,10 +113,10 @@ if __name__ == '__main__':
     backtest_commission_ratio回测佣金比例
     backtest_slippage_ratio回测滑点比例
     '''
-    run(strategy_id='c336b758-7904-11ed-b4f0-00fff86c966d',
+    run(strategy_id='',
         filename='IntradayReveseStock.py',
         mode=MODE_BACKTEST,
-        token='cabb19a30fc311ec977252560acd7b8ecabb19a4',
+        token='',
         backtest_start_time='2023-03-10 08:00:00',
         backtest_end_time='2023-03-10 15:00:00',
         backtest_adjust=ADJUST_PREV,
